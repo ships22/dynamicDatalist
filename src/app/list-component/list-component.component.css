@@ -1,0 +1,30 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+h1 {
+  text-align: center;
+  padding: 100px;
+}
+.listContainer {
+  padding: 50px;
+  border: 2px solid black;
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+input {
+  height: 80px;
+  margin: 10px;
+}
+#nameList {
+  padding: 10px;
+  border: none;
+  background-color: rgb(80, 73, 35);
+  font-size: 1.2rem;
+  color: white;
+}

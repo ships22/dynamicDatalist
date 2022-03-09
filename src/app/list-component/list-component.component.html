@@ -1,0 +1,67 @@
+<datalist id="listss">
+  <option value="name150">name150</option>
+  <option value="name1501">name250</option>
+  <option value="name1510">name350</option>
+  <option value="name1511">name450</option>
+  <option value="name1521">name550</option>
+  <option value="name1522">name650</option>
+  <option value="name1535">name750</option>
+  <option value="name1524">name850</option>
+  <option value="name1525">name950</option>
+  <option value="name1526">name1050</option>
+  <option value="name1525">name1150</option>
+  <option value="name150">name1250</option>
+  <option value="name150">name1350</option>
+  <option value="name150">name1450</option>
+  <option value="name150">name1550</option>
+  <option value="name150">name1650</option>
+  <option value="name150">name1750</option>
+  <option value="name150">name1850</option>
+  <option value="name150">name1950</option>
+  <option value="name150">name2050</option>
+  <option value="name150">name2150</option>
+  <option value="name150">name2250</option>
+  <option value="name150">name2350</option>
+  <option value="name150">name2450</option>
+  <option value="name150">name2550</option>
+  <option value="name150">name2650</option>
+  <option value="name150">name2750</option>
+  <option value="name150">name2850</option>
+  <option value="name150">name2950</option>
+  <option value="name150">name3050</option>
+  <option value="name150">name3150</option>
+  <option value="name150">name3250</option>
+  <option value="name150">name3350</option>
+  <option value="name150">name3450</option>
+  <option value="name150">name3550</option>
+  <option value="name150">name3650</option>
+  <option value="name150">name3750</option>
+  <option value="name150">name3850</option>
+  <option value="name150">name3950</option>
+  <option value="name150">name4050</option>
+  <option value="name150">name4150</option>
+  <option value="name150">name4250</option>
+  <option value="name150">name4350</option>
+  <option value="name150">name4450</option>
+  <option value="name150">name4550</option>
+  <option value="name150">name4650</option>
+  <option value="name150">name4750</option>
+  <option value="name150">name4850</option>
+  <option value="name150">name4950</option>
+  <option value="name150">name5050</option>
+</datalist>
+
+<div class="main">
+  <h1>Long list</h1>
+  <div class="listContainer">
+    <ng-container *ngFor="item; of: aList">
+      <input
+        type="text"
+        name="nameList"
+        id="nameList"
+        placeholder="Name ..."
+        (input)="getList($event)"
+      />
+    </ng-container>
+  </div>
+</div>
